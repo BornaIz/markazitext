@@ -1,5 +1,8 @@
 {
-.appVersion = "983";
+.appVersion = "998";
+DisplayStrings = (
+"Does this \012suck as much as I imagine?"
+);
 classes = (
 {
 automatic = 1;
@@ -2093,7 +2096,7 @@ unicode = 010A;
 {
 color = 4;
 glyphname = D;
-lastChange = "2017-03-08 20:05:12 +0000";
+lastChange = "2017-03-23 16:44:50 +0000";
 layers = (
 {
 anchors = (
@@ -4448,7 +4451,7 @@ unicode = 1E24;
 {
 color = 4;
 glyphname = I;
-lastChange = "2017-03-08 21:14:06 +0000";
+lastChange = "2017-03-23 16:44:53 +0000";
 layers = (
 {
 anchors = (
@@ -13762,7 +13765,7 @@ rightMetricsKey = J;
 {
 color = 4;
 glyphname = a;
-lastChange = "2017-03-08 20:05:12 +0000";
+lastChange = "2017-03-23 16:44:52 +0000";
 layers = (
 {
 anchors = (
@@ -18210,7 +18213,7 @@ unicode = 1E21;
 {
 color = 4;
 glyphname = h;
-lastChange = "2017-03-08 20:05:12 +0000";
+lastChange = "2017-03-23 16:44:50 +0000";
 layers = (
 {
 anchors = (
@@ -18599,7 +18602,7 @@ unicode = 1E25;
 {
 color = 4;
 glyphname = i;
-lastChange = "2017-03-08 20:05:12 +0000";
+lastChange = "2017-03-23 16:44:50 +0000";
 layers = (
 {
 components = (
@@ -19573,7 +19576,7 @@ unicode = 0135;
 {
 color = 4;
 glyphname = k;
-lastChange = "2017-03-08 20:05:12 +0000";
+lastChange = "2017-03-23 16:44:51 +0000";
 layers = (
 {
 anchors = (
@@ -20379,7 +20382,7 @@ unicode = 0142;
 {
 color = 4;
 glyphname = m;
-lastChange = "2017-03-08 20:05:12 +0000";
+lastChange = "2017-03-23 16:44:52 +0000";
 layers = (
 {
 anchors = (
@@ -20641,7 +20644,7 @@ unicode = 1E43;
 {
 color = 4;
 glyphname = n;
-lastChange = "2017-03-08 20:05:12 +0000";
+lastChange = "2017-03-23 16:44:54 +0000";
 layers = (
 {
 anchors = (
@@ -22375,7 +22378,7 @@ unicode = 0151;
 {
 color = 4;
 glyphname = oinvertedbreve;
-lastChange = "2017-03-08 20:05:12 +0000";
+lastChange = "2017-03-23 16:44:49 +0000";
 layers = (
 {
 components = (
@@ -25130,7 +25133,7 @@ unicode = 1E6F;
 {
 color = 4;
 glyphname = u;
-lastChange = "2017-03-08 20:05:12 +0000";
+lastChange = "2017-03-23 16:44:51 +0000";
 layers = (
 {
 anchors = (
@@ -71399,7 +71402,7 @@ unicode = 002E;
 {
 color = 4;
 glyphname = question;
-lastChange = "2017-03-08 20:05:12 +0000";
+lastChange = "2017-03-23 16:44:55 +0000";
 layers = (
 {
 components = (
@@ -85506,7 +85509,7 @@ unicode = 030F;
 {
 color = 5;
 glyphname = breveinvertedcomb;
-lastChange = "2017-03-08 20:05:12 +0000";
+lastChange = "2017-03-23 16:44:49 +0000";
 layers = (
 {
 anchors = (
@@ -92717,6 +92720,10 @@ e,
 x,
 t
 );
+},
+{
+name = "Scale to UPM";
+value = "1000";
 }
 );
 interpolationWeight = 160;
@@ -92743,6 +92750,10 @@ e,
 x,
 t
 );
+},
+{
+name = "Scale to UPM";
+value = "1000";
 }
 );
 interpolationWeight = 182;
@@ -92771,6 +92782,10 @@ e,
 x,
 t
 );
+},
+{
+name = "Scale to UPM";
+value = "1000";
 }
 );
 interpolationWeight = 210;
@@ -92799,6 +92814,10 @@ e,
 x,
 t
 );
+},
+{
+name = "Scale to UPM";
+value = "1000";
 }
 );
 interpolationWeight = 232;
