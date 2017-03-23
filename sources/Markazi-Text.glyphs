@@ -1,7 +1,7 @@
 {
 .appVersion = "998";
 DisplayStrings = (
-"/sheen-ar b"
+Dedicat
 );
 classes = (
 {
@@ -31,6 +31,10 @@ value = 1;
 },
 {
 name = "Use Line Breaks";
+value = 1;
+},
+{
+name = "Use Typo Metrics";
 value = 1;
 }
 );
@@ -754,6 +758,40 @@ alignmentZones = (
 );
 ascender = 1300;
 capHeight = 990;
+customParameters = (
+{
+name = typoAscender;
+value = 1718;
+},
+{
+name = typoDescender;
+value = -740;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1695;
+},
+{
+name = winDescent;
+value = 963;
+},
+{
+name = hheaAscender;
+value = 1718;
+},
+{
+name = hheaDescender;
+value = -740;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 descender = -740;
 guideLines = (
 {
@@ -788,6 +826,40 @@ alignmentZones = (
 );
 ascender = 1300;
 capHeight = 990;
+customParameters = (
+{
+name = typoAscender;
+value = 1718;
+},
+{
+name = typoDescender;
+value = -740;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1695;
+},
+{
+name = winDescent;
+value = 963;
+},
+{
+name = hheaAscender;
+value = 1718;
+},
+{
+name = hheaDescender;
+value = -740;
+},
+{
+name = hheaLineGap;
+value = 0;
+}
+);
 descender = -740;
 horizontalStems = (
 128,
@@ -92122,10 +92194,6 @@ e,
 x,
 t
 );
-},
-{
-name = "Scale to UPM";
-value = "1000";
 }
 );
 interpolationWeight = 160;
@@ -92152,10 +92220,6 @@ e,
 x,
 t
 );
-},
-{
-name = "Scale to UPM";
-value = "1000";
 }
 );
 interpolationWeight = 182;
@@ -92184,10 +92248,6 @@ e,
 x,
 t
 );
-},
-{
-name = "Scale to UPM";
-value = "1000";
 }
 );
 interpolationWeight = 210;
@@ -92216,10 +92276,6 @@ e,
 x,
 t
 );
-},
-{
-name = "Scale to UPM";
-value = "1000";
 }
 );
 interpolationWeight = 232;
