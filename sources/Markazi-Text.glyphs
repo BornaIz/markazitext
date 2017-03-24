@@ -1,8 +1,5 @@
 {
 .appVersion = "998";
-DisplayStrings = (
-Dedicat
-);
 classes = (
 {
 automatic = 1;
@@ -40,7 +37,7 @@ value = 1;
 );
 date = "2017-03-09 22:12:49 +0000";
 designer = "Borna Izadpanah (Arabic designer), Fiona Ross (Arabic design director) and Florian Runge (Latin designer)";
-designerURL = "http://www.borna.designm, http://www.florianrunge.com";
+designerURL = "http://www.borna.design, http://www.florianrunge.com";
 familyName = "Markazi Text";
 featurePrefixes = (
 {
