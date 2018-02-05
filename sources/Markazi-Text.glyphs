@@ -1,7 +1,7 @@
 {
 .appVersion = "1075";
 DisplayStrings = (
-/Amacron
+"\U00A3/florin"
 );
 classes = (
 {
@@ -75623,11 +75623,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"594 458 LINE",
-"602 546 LINE",
-"58 546 LINE",
-"-71 547 OFFCURVE",
-"50 458 LINE"
+"50 458 LINE",
+"646 466 LINE",
+"652 546 LINE",
+"58 546 LINE"
 );
 }
 );
@@ -75670,11 +75669,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"625 453 LINE",
-"636 571 LINE",
-"51 571 LINE",
-"-101 552 OFFCURVE",
-"40 453 LINE"
+"40 453 LINE",
+"624 453 LINE",
+"635 571 LINE",
+"51 571 LINE"
 );
 }
 );
@@ -76122,17 +76120,30 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"74 434 LINE",
 "817 434 LINE",
 "823 514 LINE",
-"80 514 LINE",
-"-46 521 OFFCURVE",
-"74 434 LINE"
+"79 514 LINE"
 );
 }
 );
 width = 982;
 },
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"875 437 LINE",
+"883 537 LINE",
+"74 537 LINE",
+"-66 534 OFFCURVE",
+"66 437 LINE"
+);
+}
+);
+};
 layerId = "106916A4-8C74-485A-AD82-F5ABB18EF495";
 paths = (
 {
@@ -76214,11 +76225,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"875 437 LINE",
-"883 537 LINE",
-"74 537 LINE",
-"-66 534 OFFCURVE",
-"66 437 LINE"
+"66 437 LINE",
+"872 437 LINE",
+"882 537 LINE",
+"76 537 LINE"
 );
 }
 );
@@ -78039,6 +78049,20 @@ color = 4;
 glyphname = sterling;
 layers = (
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"666 434 LINE",
+"672 514 LINE",
+"78 514 LINE",
+"-29 521 OFFCURVE",
+"72 434 LINE"
+);
+}
+);
+};
 layerId = "8D9E6227-A940-4CC2-85D6-810E74B12C63";
 paths = (
 {
@@ -78090,16 +78114,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"666 434 LINE",
-"672 514 LINE",
-"78 514 LINE",
-"-29 521 OFFCURVE",
-"72 434 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "864 94 OFFCURVE",
 "878 205 OFFCURVE",
 "878 310 CURVE",
@@ -78107,11 +78121,34 @@ nodes = (
 "680 50 LINE",
 "837 0 LINE"
 );
+},
+{
+closed = 1;
+nodes = (
+"73 434 LINE",
+"666 434 LINE",
+"672 514 LINE",
+"78 514 LINE"
+);
 }
 );
 width = 966;
 },
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"681 437 LINE",
+"689 537 LINE",
+"54 537 LINE",
+"-86 534 OFFCURVE",
+"46 437 LINE"
+);
+}
+);
+};
 layerId = "106916A4-8C74-485A-AD82-F5ABB18EF495";
 paths = (
 {
@@ -78163,22 +78200,21 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"681 437 LINE",
-"689 537 LINE",
-"54 537 LINE",
-"-86 534 OFFCURVE",
-"46 437 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "906 101 OFFCURVE",
 "922 224 OFFCURVE",
 "922 342 CURVE",
 "832 342 LINE",
 "683 80 LINE",
 "877 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"46 437 LINE",
+"682 437 LINE",
+"692 537 LINE",
+"56 537 LINE"
 );
 }
 );
