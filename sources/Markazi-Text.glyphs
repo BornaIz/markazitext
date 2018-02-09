@@ -10,7 +10,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2017 The Markazi Text Authors (final git url when uploaded)";
+copyright = "Copyright 2017 The Markazi Text Authors (https://github.com/BornaIz/markazitext)";
 customParameters = (
 {
 name = license;
