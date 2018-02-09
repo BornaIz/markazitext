@@ -1,0 +1,17 @@
+FONTLOG for the Markazi Text
+
+
+ChangeLog
+
+23 March 2017 (Marc Foley) Markazi Text v1.000 mastering
+- Updated project to comply with GF spec
+
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Marc Foley
+E: m.foley.88@gmail.com
+D: Mastering
