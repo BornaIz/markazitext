@@ -5,3 +5,4 @@ This typeface design was inspired by Tim Holloway’s Markazi typeface, with his
 
 Variable Font generated with FontMake 1.4.0 using the following cli input `fontmake -g ./sources/Markazi-Text.glyph -o variable`
 
+![Alt text](https://github.com/BornaIz/markazitext/blob/master/Specimen/Markazi%20Text_1.PNG)
