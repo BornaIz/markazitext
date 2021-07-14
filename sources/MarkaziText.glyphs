@@ -1,5 +1,5 @@
 {
-.appVersion = "1349";
+.appVersion = "1342";
 classes = (
 {
 automatic = 1;
@@ -44277,10 +44277,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"0 0 LINE",
 "308 0 LINE",
 "308 235 LINE",
-"0 235 LINE"
+"0 235 LINE",
+"0 0 LINE"
 );
 }
 );
@@ -85484,10 +85484,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"-53 -123 LINE",
 "19 60 LINE",
 "-72 60 LINE",
-"-114 -116 LINE"
+"-114 -116 LINE",
+"-53 -123 LINE"
 );
 }
 );
