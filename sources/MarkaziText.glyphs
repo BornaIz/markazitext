@@ -1,5 +1,5 @@
 {
-.appVersion = "1139";
+.appVersion = "1342";
 classes = (
 {
 automatic = 1;
@@ -7,7 +7,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2017 The Markazi Text Authors (https://github.com/BornaIz/markazitext)";
+copyright = "Copyright 2017 The Markazi Text Project Authors (https://github.com/BornaIz/markazitext)";
 customParameters = (
 {
 name = license;
@@ -796,15 +796,6 @@ value = -740;
 {
 name = hheaLineGap;
 value = 0;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-}
-);
 }
 );
 descender = -740;
@@ -873,15 +864,6 @@ value = -740;
 {
 name = hheaLineGap;
 value = 0;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 700;
-}
-);
 }
 );
 descender = -740;
@@ -44295,10 +44277,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"0 0 LINE",
 "308 0 LINE",
 "308 235 LINE",
-"0 235 LINE"
+"0 235 LINE",
+"0 0 LINE"
 );
 }
 );
@@ -85502,10 +85484,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"-53 -123 LINE",
 "19 60 LINE",
 "-72 60 LINE",
-"-114 -116 LINE"
+"-114 -116 LINE",
+"-53 -123 LINE"
 );
 }
 );
@@ -96332,5 +96314,5 @@ oV = "256";
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
