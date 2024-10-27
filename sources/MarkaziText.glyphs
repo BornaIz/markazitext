@@ -1,6 +1,9 @@
 {
-.appVersion = "3148";
+.appVersion = "3316";
 .formatVersion = 3;
+DisplayStrings = (
+"/shaddaFathatan-ar/shaddaDammatan-ar/shaddaKasratan-ar ّ/shaddaFatha-ar/shaddaDamma-ar/shaddaKasra-ar/shaddaAlefabove-ar"
+);
 axes = (
 {
 name = Weight;
@@ -79,7 +82,6 @@ feature ss03;
 tag = aalt;
 },
 {
-automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
 	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb];
@@ -97,7 +99,6 @@ lookup ccmp_Other_2 {
 } ccmp_Other_2;
 
 lookup ccmp_arab_1 {
-	script arab;
 	sub shadda-ar alefabove-ar by shaddaAlefabove-ar;
 	sub alefabove-ar shadda-ar by shaddaAlefabove-ar;
 	sub shadda-ar damma-ar by shaddaDamma-ar;
@@ -113,6 +114,8 @@ lookup ccmp_arab_1 {
 	sub shadda-ar kasratan-ar by shaddaKasratan-ar;
 	sub kasratan-ar shadda-ar by shaddaKasratan-ar;
 } ccmp_arab_1;
+
+script arab;
 ";
 tag = ccmp;
 },
@@ -787,8 +790,8 @@ pos = 960;
 size = 18;
 },
 {
-pos = "-320";
-size = "-30";
+pos = -320;
+size = -30;
 }
 );
 }
@@ -891,8 +894,8 @@ pos = 986;
 size = 18;
 },
 {
-pos = "-320";
-size = "-30";
+pos = -320;
+size = -30;
 }
 );
 }
@@ -74065,6 +74068,7 @@ pos = (268,579);
 layerId = "8D9E6227-A940-4CC2-85D6-810E74B12C63";
 shapes = (
 {
+alignment = -1;
 pos = (-410,50);
 ref = periodcentered;
 }
@@ -74081,6 +74085,7 @@ pos = (290,579);
 layerId = "106916A4-8C74-485A-AD82-F5ABB18EF495";
 shapes = (
 {
+alignment = -1;
 pos = (-395,50);
 ref = periodcentered;
 }
@@ -86955,7 +86960,7 @@ width = 575;
 anchors = (
 {
 name = _top;
-pos = (337,67);
+pos = (335,142);
 },
 {
 name = top;
@@ -87010,7 +87015,7 @@ width = 575;
 anchors = (
 {
 name = _top;
-pos = (282,178);
+pos = (335,142);
 },
 {
 name = top;
@@ -87025,7 +87030,7 @@ ref = "shadda-ar";
 },
 {
 alignment = -1;
-pos = (-63,335);
+pos = (-129,335);
 ref = "dammatan-ar";
 }
 );
@@ -87119,7 +87124,7 @@ width = 575;
 anchors = (
 {
 name = _top;
-pos = (307,155);
+pos = (335,142);
 },
 {
 name = top;
@@ -87174,7 +87179,7 @@ width = 575;
 anchors = (
 {
 name = _top;
-pos = (333,135);
+pos = (335,142);
 },
 {
 name = top;
@@ -87293,7 +87298,7 @@ width = 594;
 anchors = (
 {
 name = _top;
-pos = (333,169);
+pos = (335,142);
 },
 {
 name = top;
@@ -90365,7 +90370,7 @@ layerId = "8D9E6227-A940-4CC2-85D6-810E74B12C63";
 shapes = (
 {
 angle = 180;
-pos = (-4,2416);
+pos = (0,2416);
 ref = caroncomb.case;
 }
 );
@@ -90398,7 +90403,7 @@ layerId = "106916A4-8C74-485A-AD82-F5ABB18EF495";
 shapes = (
 {
 angle = 180;
-pos = (-4,2433);
+pos = (0,2433);
 ref = caroncomb.case;
 }
 );
@@ -97605,15 +97610,6 @@ value = "Borna Izadpanah (Arabic designer), Fiona Ross (Arabic design director) 
 );
 },
 {
-key = manufacturers;
-values = (
-{
-language = dflt;
-value = "Borna Izadpanah and Florian Runge";
-}
-);
-},
-{
 key = licenses;
 values = (
 {
@@ -97625,6 +97621,15 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 key = licenseURL;
 value = "http://scripts.sil.org/OFL";
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Borna Izadpanah and Florian Runge";
+}
+);
 }
 );
 stems = (
